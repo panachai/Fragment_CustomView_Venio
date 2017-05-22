@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
-
+	<string name="app_name">CustomView_Venio</string>
+	
 	<string name="map_apikey_debug">AIzaSyAQGTxLsDVeKBIJ1qLUoqiCy00ncKAHbm0</string>
 	<string name="map_apikey_production">AIzaSyC5zeY-NcZEPr2jj8f8Ah92uKIBLhgyz70</string>
 	

@@ -1,3 +1,77 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<!--<android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardBackgroundColor="@color/white"
+        card_view:cardElevation="2dp"
+        card_view:cardCornerRadius="2dp">-->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingBottom="@dimen/margin_long"
+        android:paddingTop="@dimen/margin_long"
+        android:paddingLeft="@dimen/margin_long"
+        android:paddingRight="@dimen/margin_long">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/imvDisplay"
+                android:src="@android:color/holo_blue_bright"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+            <TextView
+                android:id="@+id/txtTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_large"
+                android:gravity="center"
+                android:textColor="@color/black" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_width="1dp" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/txtCustomerN"
+                android:text="x"
+                android:textSize="@dimen/text_large"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textColor="@color/black"
+                android:singleLine="true" />
+            <TextView
+                android:id="@+id/txtCustomerStatement"
+                android:text="xx"
+                android:textSize="@dimen/text_medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:layout_marginTop="@dimen/margin_short"
+                android:textColor="@color/grey_text"
+                android:singleLine="true" />
+            <TextView
+                android:id="@+id/txtCustomerDescription"
+                android:text="xxx"
+                android:textSize="@dimen/text_medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textColor="@color/grey_text"
+                android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+<!--</android.support.v7.widget.CardView>-->
 </LinearLayout>
