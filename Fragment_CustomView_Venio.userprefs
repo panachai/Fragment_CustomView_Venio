@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{AF2FE04A-F0C8-46B7-B39A-68E4DA842CA7}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="..\VenioMobile\Venio\Venio\Venio.Droid\FragmentEvent.cs" line="368" offsetX="843" offsetY="5780" expression="tab" liveUpdate="False" />
+    <Watch file="..\VenioMobile\Venio\Venio\Venio.Droid\FragmentEvent.cs" line="373" offsetX="1174" offsetY="5755" expression="calendarEventList" liveUpdate="False" />
+    <Watch file="..\VenioMobile\Venio\Venio\Venio.Droid\CustomRecyclerView\RecyclerApproval.cs" line="45" offsetX="741" offsetY="574" expression="position" liveUpdate="False" />
+    <Watch file="..\VenioMobile\Venio\Venio\Venio.Droid\CustomRecyclerView\RecyclerApproval.cs" line="67" offsetX="214" offsetY="874" expression="position" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Fragment__CustomView__Venio AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.192.168.219.101:5555" />
+</Properties>
